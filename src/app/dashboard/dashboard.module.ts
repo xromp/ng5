@@ -18,7 +18,6 @@ import { DashboardService } from './dashboard.service';
     FormsModule,
     DashboardRoutingModule,
     AngularMaterialModule,
-    BrowserAnimationsModule,
     RouterModule,
     HttpClientModule
   ],
