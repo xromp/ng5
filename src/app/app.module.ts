@@ -9,10 +9,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { DialogComponent } from './profile/dialog/dialog.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,6 +26,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule
   ],
   providers: [],
+  entryComponents: [DialogComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
